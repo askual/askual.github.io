@@ -1,0 +1,19 @@
+html,body{
+  padding: 0px !important;
+}
+.no-margin{
+  margin: 0px !important;
+}
+.al-menu:hover {
+	
+	background-color: rgba(63,81,181,0.1);
+
+
+}
+.al-menu a:hover{
+	color: #fff !important;
+}
+.al-header{
+	background-image: url('../img/11.png');
+	background-size: 100% 100%;
+}
