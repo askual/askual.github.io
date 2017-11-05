@@ -4,6 +4,19 @@ html,body{
 .no-margin{
   margin: 0px !important;
 }
+.a-header{
+	/*background-image: url('../img/bg.jpg');
+	background-size: 100% 100%;
+*/
+}
+.a-wedo{
+	padding-top: 30px;
+
+}
+/*Theme Colors*/
+.primaryText{
+	color: #fff !important;
+}
 .al-menu:hover {
 	
 	background-color: rgba(63,81,181,0.1);
