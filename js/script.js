@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	 $('.carousel.carousel-slider').carousel({fullWidth: true});
+	 //$('.carousel').carousel({fullWidth: true});
 
 	 // $('#contactnav').on('click', function(){
 	 // 	console.log("contactnav");
