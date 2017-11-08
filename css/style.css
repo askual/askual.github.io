@@ -9,21 +9,37 @@ html,body{
 	background-size: 100% 100%;
 */
 }
+.circle {
+  border-radius: 50% !important;
+}
+.pro-pic{
+	max-height: 300px;
+}
+.lg1{
+	width: 25%;
+	height: 25%;
+}
 .a-wedo{
-	padding-top: 30px;
+	padding-top: 40px;
 
 }
 .hero-home{
-	/* position: absolute;
+	 position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 10*/;
+  z-index: 10;
+
 }
-.particles-js-el{
+#projects{
+	padding-top: 14px;
+}
+#team{
 
-
+}
+.pro-img{
+	margin-top: -50%
 }
 /*particles*/
 #particles-js{
@@ -34,6 +50,10 @@ html,body{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+.particles-js-canvas-el{
+	position: relative !important;
+	margin-top: -60%;
 }
 /*Theme Colors*/
 .primaryText{
@@ -52,3 +72,42 @@ html,body{
 	background-image: url('../img/11.png');
 	background-size: 100% 100%;
 }
+
+/*DO NOT ASK ME ABOUT THIS*/
+
+
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid #3f51b5 !important;
+  -webkit-box-shadow: 0 1px 0 0 #3f51b5 !important;
+          box-shadow: 0 1px 0 0 #3f51b5 !important;
+}
+
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: #3f51b5 !important;
+}
+/*//////*/
